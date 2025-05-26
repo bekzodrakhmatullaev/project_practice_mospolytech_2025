@@ -258,21 +258,27 @@ video{
   
 }
 
-.column_3 {
+.names {
   display: flex;
-  justify-self: center;
+  justify-self: space-between;
   align-items:center;
+  gap: 10px ;  
+  flex-wrap: nowrap;
+  overflow-x: auto;.
 }
-
-.command {
+.name {
+  max-width: 100%;  
+  /* width: 100%;
+  height: 100%; */
   flex: 0 0 auto;
-  width: 104px;
-  height: 04px;
+  width: 180px;
+  height: 90px;
   margin: 20px;
   padding:20px 20px 20px 20px ;
   border-radius: 20px 20px 20px 20px;
   max-width: 100%;     /* чтобы не выходил за пределы */
   background-color: rgba(128, 128, 128, 0.3); /* полупрозрачный серый */
+  text-align: center;
 }
 .footer{
   padding: 5%;
